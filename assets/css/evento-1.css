@@ -1,0 +1,105 @@
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:  local('Open Sans'),
+        url(webfont.woff2) format('woff2'),
+        url(webfont.woff) format('woff'),
+        url(webfont.ttf) format('ttf');
+        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ body {
+   margin: 0;
+   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.contenedor-texto {
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.simposio-vegan {
+  margin: auto;
+  padding-top: 9rem;
+  width: 60%;
+}
+
+.simposio-vegan img {
+  margin-top: 2rem;
+  width: 90%;
+}
+
+  p, a {
+    font-family: 'Open Sans', cursive;
+    font-size: 90%;
+    font-display: fallback;
+    text-align: justify;
+  }
+
+  p{
+    line-height: 1.5em;
+    letter-spacing: 0.125em;
+  }
+  .titulo, .subtitulo{
+    font-family: 'Open Sans';
+  }
+  .subtitulo {
+    margin: 1.5em 0;
+    text-align: left;
+  }
+footer{
+  color: #fff;
+  text-align: center;
+  padding: 3.125rem 0;
+}
+footer p{
+  text-align: center;
+  padding-top: 1.250rem; 
+}
+footer a{
+  padding-right: 3.125rem;
+}
+.oscuro{
+  background-color: #000f08;
+}
+.oscuro a{
+  color: #fff;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+nav{
+  padding: 1.25rem 4rem;
+  text-align: left;
+  color: #fff;
+  position: fixed;
+  width: 100vw;
+  font-size: 1.1em;
+  
+}
+nav ul{
+  list-style-: none;
+  
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 2rem;
+ 
+}
+
+.icono{
+  width: 2rem;
+}
+
+
+
+  
